@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            padding: 9px;
+            align-items: center;
+        }
+        article{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            padding: 9px;
+        }
+        .brand-name{
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        .Tags span{
+            margin-left: 15px;
+
+        }
+        .icon span{
+            margin-left: 6px;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            gap:9px;
+        }
+        .cart{
+            height: 500px;
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-image: url("./public/images/men-fishone.jpg");
+            background-size: cover;
+            background-attachment:fixed;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="brand-name">
+            <span>Shopper.</span>
+            
+        </div>
+        <div class="Tags">
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Pages</span>
+            <span>Shop</span>
+            <span>Docs</span>
+            <span>Blog</span>
+
+        </div>
+        <div class="icon">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+
+        </div>
+    </nav>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span> HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-fill"></span>
+    </article>
+    <main>
+        <div class="cart">
+            <div>Women</div>
+            <div>Shop Women <span class="bi bi-arrow-right"></span></div>
+
+
+        </div>
+        <div class="cart">
+            <div>Women</div>
+            <div>Shop Women <span class="bi bi-arrow-right"></span></div>
+
+
+        </div>
+        <div class="cart">
+            <div>Women</div>
+            <div>Shop Women <span class="bi bi-arrow-right"></span></div>
+
+
+        </div>
+    </main>
+    
+</body>
+</html>
